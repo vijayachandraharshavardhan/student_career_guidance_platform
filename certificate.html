@@ -7,9 +7,10 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/certificate.css">
   <link rel="stylesheet" href="css/certificate-result.css">
+  <link rel="stylesheet" href="css/brand.css">
 </head>
 <body>
-<header class="site-header no-print"><a class="brand" href="index.html"><img src="images/logo.svg" alt="" width="34" height="34">Student Career Guidance</a><nav class="site-nav" aria-label="Main navigation"><a href="dashboard.html">Dashboard</a><a href="courses.html">Courses</a><a href="python-course.html">Study course</a></nav><a class="button button-light" href="final-test.html">Grand Final</a></header>
+<header class="site-header no-print"><a class="brand" href="index.html"><img src="images/logo.svg" alt="" width="34" height="34">Student Career Guidance</a><nav class="site-nav" aria-label="Main navigation"><a href="index.html">Home</a><a href="about.html">About</a><a href="dashboard.html">Dashboard</a><a href="courses.html">Courses</a><a href="python-course.html">Study course</a></nav><a class="button button-light" href="final-test.html">Grand Final</a></header>
 <main class="container result-shell">
   <section class="panel result-state" id="not-submitted" hidden><span class="eyebrow">Final assessment</span><h1>Your result appears here.</h1><p>Submit the 100-question Grand Final to check your score and certificate eligibility.</p><a class="button" href="final-test.html">Start Grand Final</a></section>
   <section class="panel result-state" id="retry-result" hidden><span class="eyebrow">Grand Final result</span><h1>Keep learning, <span id="retry-name"></span>.</h1><p class="result-score"><span id="retry-score"></span>/100</p><p id="retry-message"></p><p>Review a section, practice its lessons, then retry:</p><div class="result-actions"><a class="button button-light" href="python-course.html#part-1">Frontend</a><a class="button button-light" href="python-course.html#part-2">Python</a><a class="button button-light" href="python-course.html#p2m9">Django / Backend</a><a class="button button-light" href="python-course.html#part-3">Database</a><a class="button" href="final-test.html">Retry the Grand Final</a></div></section>
@@ -18,7 +19,7 @@
   </section>
   <p class="certificate-status no-print">This is a browser-only demonstration. The score is calculated from answers submitted in the URL and can be altered; it is not an official or tamper-proof credential. Do not use sensitive personal information.</p>
 </main>
-<footer class="site-footer no-print">Student Career Guidance · Grand Final result</footer>
+<aside class="student-quote" aria-label="Student encouragement"><span class="student-quote-mark" aria-hidden="true">“</span><p>Believe in your preparation—every question is a step toward your future.</p></aside><footer class="site-footer no-print"><div class="site-footer-inner"><a class="site-footer-brand" href="index.html"><span class="site-footer-mark" aria-hidden="true">🎓</span><span>Student Career Guidance</span></a><p class="site-footer-copyright"><span class="copyright-symbol" aria-hidden="true">©</span> 2026 <strong>Student Career Guidance</strong><span class="rights-reserved">All rights reserved.</span></p></div></footer>
 <script>
   const answerKey = [
     1,2,0,1,2,0,1,2,1,0,1,2,0,1,0,2,1,0,2,1,0,2,1,0,0,
